@@ -42,11 +42,13 @@ h2 {
 .week {
   display: inline-flex;
   flex-grow: 3;
+  flex-direction: column;
 }
 
 .row {
   min-height: 200px;
   display: flex;
+  flex-wrap: wrap;
 }
 
 .square {
