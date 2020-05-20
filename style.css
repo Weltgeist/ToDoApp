@@ -41,6 +41,7 @@ h2 {
 
 .week {
   display: inline-flex;
+  flex-grow: 3;
 }
 
 .row {
@@ -76,6 +77,7 @@ h2 {
 .reminders {
   background-color: Khaki;
   display: inline-flex;
+  flex-grow: 2;
 }
 
 .reminders h3 {
